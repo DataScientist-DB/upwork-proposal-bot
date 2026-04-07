@@ -1,0 +1,36 @@
+{
+  "timestamp": "2026-04-04T22:37:48.600267",
+  "classification": {
+    "primary_category": "scraping",
+    "matched_categories": {
+      "scraping": 3,
+      "automation": 1
+    },
+    "matched_keywords": [
+      "bot",
+      "extract",
+      "scrape",
+      "scraping"
+    ]
+  },
+  "evaluation": {
+    "fit": "Strong fit",
+    "decision": "Premium proposal",
+    "scores": {
+      "technical_fit": 5,
+      "proof_fit": 5,
+      "client_clarity": 4,
+      "budget_quality": 3,
+      "execution_risk": 4,
+      "high_value_bonus": 3,
+      "total": 24
+    },
+    "risk_flags": [
+      "Advanced anti-bot protection is likely part of the project scope.",
+      "Required output format is not clearly specified.",
+      "This may expand into a larger multi-scraper system after the initial phase."
+    ]
+  },
+  "standard_proposal": "Hi,\n\nThis looks like a strong match for my background.\n\nYour project aligns well with the type of systems I build in Python: automation workflows, web scraping, structured data pipelines, and business-ready outputs.\n\nRelevant experience:\n- Built production-grade Apify Actors for structured extraction, validation, export workflows, and scalable cloud execution.\n- Built Python scraping systems using BeautifulSoup and Playwright for both static and dynamic websites, with reliable parsing and structured output delivery.\n\nMy approach would be to first confirm the source structure, required output, and any constraints, then build a reliable workflow that focuses on clean extraction, validation, and usable delivery.\n\nI’m especially comfortable with dynamic sites when browser automation is needed, and I care a lot about making the final output clean, maintainable, and useful rather than delivering a fragile one-off script.\n\nBest,\nArtashes\n",
+  "premium_proposal": "Hi,\n\nThis is very well aligned with the kind of systems I build.\n\nFrom your description, this project needs more than basic scripting — it needs a dependable workflow that can collect the right data, handle edge cases, structure outputs cleanly, and be useful in real operation.\n\nRelevant experience:\n- Built production-grade Apify Actors for structured extraction, validation, export workflows, and scalable cloud execution.\n- Built Python scraping systems using BeautifulSoup and Playwright for both static and dynamic websites, with reliable parsing and structured output delivery.\n\nMy core background is in Python automation, production-grade web scraping, Apify Actor development, data pipelines, Streamlit dashboards, and document/report automation. I focus on building reliable solutions that hold up beyond the first run.\n\nFor a project like this, I would typically break the work into source analysis, extraction logic, validation/output structuring, and hand-off or deployment preparation. That keeps the solution clean, scalable, and easier to maintain.\n\nI also look at practical risk areas early — such as dynamic content, anti-bot friction, inconsistent source structure, and output quality rules — so the final workflow is solid rather than fragile.\n\nBest,\nArtashes\n"
+}

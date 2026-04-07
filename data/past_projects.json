@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Production-grade Apify Actors",
+    "tags": ["apify", "web scraping", "automation", "data pipeline"],
+    "summary": "Built production-grade Apify Actors for structured extraction, validation, export workflows, and scalable cloud execution."
+  },
+  {
+    "name": "Streamlit business dashboards",
+    "tags": ["streamlit", "dashboard", "analytics", "reporting"],
+    "summary": "Built Streamlit dashboards that turn collected and processed data into usable business-facing tools with filters, metrics, and exports."
+  },
+  {
+    "name": "Python web scraping systems",
+    "tags": ["python", "scraping", "playwright", "beautifulsoup"],
+    "summary": "Built Python scraping systems using BeautifulSoup and Playwright for both static and dynamic websites, with reliable parsing and structured output delivery."
+  },
+  {
+    "name": "Document and PDF automation",
+    "tags": ["pdf", "document", "reporting", "automation"],
+    "summary": "Created automated reporting and document generation workflows that produce structured PDF and export outputs from source data."
+  },
+  {
+    "name": "Data pipeline workflows",
+    "tags": ["etl", "data pipeline", "csv", "json", "xlsx"],
+    "summary": "Built end-to-end data workflows covering collection, cleaning, normalization, validation, and export to business-ready formats like CSV, JSON, and XLSX."
+  }
+]

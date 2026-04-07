@@ -1,0 +1,54 @@
+=== STANDARD PROPOSAL ===
+
+Hi,
+
+I read this as a need to build a trustworthy reconciliation and sync layer where inventory, cost, and source-of-truth data stay aligned.
+
+A practical way to handle this is to:
+- define the reconciliation logic around source-of-truth rules first, so mismatches can be explained rather than just observed
+- validate each stage against upstream source data instead of trusting transformed outputs by default
+- surface failed joins, missing mappings, and broken assumptions explicitly so errors cannot hide inside clean-looking totals
+
+Related work on my side includes:
+- Built production-grade Apify Actors for structured extraction, validation, export workflows, and scalable cloud execution.
+- Built end-to-end data workflows covering collection, cleaning, normalization, validation, and export to business-ready formats like CSV, JSON, and XLSX.
+- Created automated reporting and document generation workflows that produce structured PDF and export outputs from source data.
+
+Handled this way, the same work can also support:
+- a stronger source-of-truth model for inventory and cost movement across systems
+- exception surfacing so mismatches are visible immediately instead of hiding inside seemingly correct totals
+
+So the result is not only a delivered task, but a workflow that is easier to extend and reuse after the first phase.
+
+Best,
+Artashes
+
+=== PREMIUM PROPOSAL ===
+
+Hi,
+
+The core issue here is that the difficulty is not moving numbers between systems, but proving that each number remains reconcilable, traceable, and trustworthy end to end.
+
+What matters is not only how to build a trustworthy reconciliation and sync layer where inventory, cost, and source-of-truth data stay aligned, but how to do it in a way that creates a stable foundation for whatever comes next.
+
+My preference in projects like this is to structure the work so the first delivery also improves the next phase:
+- define the reconciliation logic around source-of-truth rules first, so mismatches can be explained rather than just observed
+- validate each stage against upstream source data instead of trusting transformed outputs by default
+- surface failed joins, missing mappings, and broken assumptions explicitly so errors cannot hide inside clean-looking totals
+
+That perspective comes from work built around:
+- Built production-grade Apify Actors for structured extraction, validation, export workflows, and scalable cloud execution.
+- Built end-to-end data workflows covering collection, cleaning, normalization, validation, and export to business-ready formats like CSV, JSON, and XLSX.
+- Created automated reporting and document generation workflows that produce structured PDF and export outputs from source data.
+
+Approached this way, the immediate solution can also open up:
+- a stronger source-of-truth model for inventory and cost movement across systems
+- exception surfacing so mismatches are visible immediately instead of hiding inside seemingly correct totals
+- validation and transformation steps that make the data more useful for analytics, reporting, or operational use
+
+I would keep the delivery grounded: prove the approach on the current requirement first, then shape it so it can be extended cleanly without carrying unnecessary complexity into phase one.
+
+That usually leads to a better result for the client: the initial problem gets solved, but the work also becomes more reusable, more informative, and more valuable over time.
+
+Best,
+Artashes

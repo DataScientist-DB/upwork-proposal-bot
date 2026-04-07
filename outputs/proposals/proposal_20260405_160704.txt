@@ -1,0 +1,47 @@
+=== STANDARD PROPOSAL ===
+
+Hi,
+
+One example that is very similar:
+
+I worked on a system where inventory, sales, and warehouse data were all internally consistent, but did not reconcile end-to-end.
+
+The issue turned out to be subtle:
+- fulfillment updates lagged behind reporting snapshots
+- cost logic was being applied on partially updated inventory states
+- each system looked correct in isolation, but failed when traced across the full flow
+
+I proved it by reconstructing the pipeline from source events to transformations to outputs, and validating each stage against its original source instead of trusting derived tables.
+
+That exposed exactly where the numbers diverged.
+
+Fixing it was less about rewriting queries and more about restructuring validation so mismatches could not pass silently.
+
+That is generally how I approach systems like this: first make the numbers explainable, then make the pipeline durable.
+
+Best,
+Artashes
+
+=== PREMIUM PROPOSAL ===
+
+Hi,
+
+A closely related example:
+
+I worked on a data flow where inventory, sales, and warehouse states all appeared correct inside their own systems, yet the business-level numbers still failed to reconcile.
+
+The underlying problem was not a visible query error. It was timing and transformation drift:
+- fulfillment updates were arriving on a different cadence than reporting snapshots
+- cost calculations were being applied to partially updated inventory states
+- the outputs looked plausible, which made the error harder to catch
+
+I proved it by rebuilding the full chain from source events to transformed tables to final outputs, and comparing each stage back to its original source instead of assuming the derived layer was trustworthy.
+
+That made it possible to show exactly where the divergence started, rather than only where the final totals looked wrong.
+
+The fix was not just a query adjustment. It required changing the validation structure so mismatches became visible immediately and could no longer pass as believable numbers.
+
+That is the kind of discipline I would bring here as well: not only getting the pipeline to run, but making every important number defensible and traceable.
+
+Best,
+Artashes

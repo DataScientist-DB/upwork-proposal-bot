@@ -1,0 +1,29 @@
+{
+  "name": "Artashes",
+  "headline": "Python Automation, Web Scraping, Apify Actors, Data Pipelines, Streamlit Dashboards, Document/PDF Automation",
+  "skills": [
+    "Python automation",
+    "Web scraping",
+    "BeautifulSoup",
+    "Playwright",
+    "Apify Actors",
+    "Data pipelines",
+    "Streamlit dashboards",
+    "Document/PDF automation"
+  ],
+  "value_proposition": "I build production-grade Python automation and data extraction workflows that turn messy web/data sources into clean, usable business outputs.",
+  "proposal_style": {
+    "tone": "professional, direct, confident",
+    "emphasize": [
+      "production reliability",
+      "clean outputs",
+      "scalability",
+      "business usefulness"
+    ],
+    "avoid": [
+      "generic claims",
+      "overpromising",
+      "too much fluff"
+    ]
+  }
+}

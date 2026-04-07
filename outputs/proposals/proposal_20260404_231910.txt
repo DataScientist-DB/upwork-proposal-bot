@@ -1,0 +1,42 @@
+=== STANDARD PROPOSAL ===
+
+Hi,
+
+This looks like a strong match for my background.
+
+Your project aligns well with the type of systems I build in Python: automation workflows, web scraping, structured data pipelines, and business-ready outputs.
+
+Relevant experience:
+- Built Streamlit dashboards that turn collected and processed data into usable business-facing tools with filters, metrics, and exports.
+- Built Python scraping systems using BeautifulSoup and Playwright for both static and dynamic websites, with reliable parsing and structured output delivery.
+- Created automated reporting and document generation workflows that produce structured PDF and export outputs from source data.
+
+My approach would be to first confirm the source structure, required output, and any constraints, then build a reliable workflow that focuses on clean extraction, validation, and usable delivery.
+
+I’m especially comfortable with dynamic sites when browser automation is needed, and I care a lot about making the final output clean, maintainable, and useful rather than delivering a fragile one-off script.
+
+Best,
+Artashes
+
+
+=== PREMIUM PROPOSAL ===
+
+Hi,
+
+This is very well aligned with the kind of systems I build.
+
+What stands out here is that this is not just a simple scraping task — it requires a reliable and scalable workflow.
+
+Relevant experience:
+- Built Streamlit dashboards that turn collected and processed data into usable business-facing tools with filters, metrics, and exports.
+- Built Python scraping systems using BeautifulSoup and Playwright for both static and dynamic websites, with reliable parsing and structured output delivery.
+- Created automated reporting and document generation workflows that produce structured PDF and export outputs from source data.
+
+My core background is in Python automation, production-grade web scraping, Apify Actor development, and data pipelines. I focus on building systems that remain stable beyond the first run.
+
+For this type of project, I would structure the solution so it can scale across multiple scrapers, not just solve a single case. That ensures long-term usability instead of a fragile one-off script.
+
+I also consider practical challenges early, such as bot detection, dynamic content handling, and consistency of extracted data.
+
+Best,
+Artashes

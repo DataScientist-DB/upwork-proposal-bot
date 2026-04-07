@@ -1,0 +1,125 @@
+{
+  "timestamp": "2026-04-07T14:47:37.122088",
+  "classification": {
+    "primary_category": "scraping",
+    "matched_categories": {
+      "scraping": 3,
+      "automation": 1,
+      "python_backend": 1
+    },
+    "matched_keywords": [
+      "api",
+      "extract",
+      "scrape",
+      "scraping",
+      "script"
+    ]
+  },
+  "evaluation": {
+    "fit": "weak",
+    "decision": "skip",
+    "scores": {
+      "technical_fit": 4,
+      "proof_fit": 5,
+      "client_clarity": 2,
+      "budget_quality": 6,
+      "execution_risk": 4,
+      "total": 13
+    },
+    "risk_flags": [
+      "Client scope is vague"
+    ],
+    "matched_categories": [
+      "scraping"
+    ],
+    "matched_keywords": {
+      "scraping": [
+        "extract",
+        "scrape",
+        "scraping"
+      ]
+    },
+    "base_score": 15,
+    "base_recommendation": "skip",
+    "complexity": "medium",
+    "estimated_bid_range": {
+      "low": 400,
+      "avg": 1000,
+      "high": 2500
+    },
+    "reasons": [
+      "Strong match in scraping/data extraction: +9 (extract, scrape, scraping)",
+      "Applied scraping floor → upgraded to minimum viable score (15)",
+      "Final recommendation: SKIP"
+    ]
+  },
+  "strategy": {
+    "decision": "skip",
+    "proposal_type": "standard",
+    "effort": "low",
+    "positioning": "safe",
+    "strategy_note": "Low overall fit score; better to skip and protect application ROI."
+  },
+  "win_v2": {
+    "skill_score": 60,
+    "competition_score": 15,
+    "client_score": 35,
+    "value_score": 50,
+    "timing_score": 70,
+    "final_score": 46,
+    "decision": "SELECTIVE",
+    "recommended_bid": 0,
+    "bid_low": 400,
+    "bid_avg": 1000,
+    "bid_high": 2500,
+    "complexity": "medium",
+    "proposal_mode": "shortlist_only",
+    "auto_apply": false,
+    "reasons": [
+      "Fit recommendation: SKIP",
+      "Skill match: 60/100",
+      "Competition: 15/100 (Extreme competition)",
+      "Client quality: 35/100 (No hire history, Payment not verified/unknown)",
+      "Value: 50/100 (No budget info)",
+      "Timing: 70/100 (Recently active)",
+      "Complexity: medium",
+      "Final score: 46/100",
+      "Decision: SELECTIVE",
+      "Proposal mode: shortlist_only",
+      "Auto apply: NO",
+      "Bid strategy: low $400 | avg $1000 | high $2500 | recommended SKIP"
+    ]
+  },
+  "auto_apply_payload": {
+    "auto_apply": false,
+    "decision": "SELECTIVE",
+    "proposal_mode": "shortlist_only",
+    "recommended_bid": 0,
+    "bid_range": {
+      "low": 400,
+      "avg": 1000,
+      "high": 2500
+    },
+    "win_score": 46,
+    "complexity": "medium",
+    "reasons": [
+      "Fit recommendation: SKIP",
+      "Skill match: 60/100",
+      "Competition: 15/100 (Extreme competition)",
+      "Client quality: 35/100 (No hire history, Payment not verified/unknown)",
+      "Value: 50/100 (No budget info)",
+      "Timing: 70/100 (Recently active)",
+      "Complexity: medium",
+      "Final score: 46/100",
+      "Decision: SELECTIVE",
+      "Proposal mode: shortlist_only",
+      "Auto apply: NO",
+      "Bid strategy: low $400 | avg $1000 | high $2500 | recommended SKIP"
+    ]
+  },
+  "selected_type": "standard",
+  "selected_proposal": "Hi,\n\nI read this as a need to replace manual effort with a repeatable workflow that behaves predictably.\n\nA practical way to handle this is to:\n- stabilize the extraction pattern on representative pages first, then extend it across the wider source set\n- shape the output schema early so collection stays aligned with downstream use\n\nRelated work on my side includes:\n- Built production-grade Apify Actors for structured extraction, validation, export workflows, and scalable cloud execution.\n- Created automated reporting and document generation workflows that produce structured PDF and export outputs from source data.\n- Built Python scraping systems using BeautifulSoup and Playwright for both static and dynamic websites, with reliable parsing and structured output delivery.\n\nHandled this way, the same work can also support:\n- a reusable extraction pattern so future sources can be added faster\n- normalized outputs so the collected data stays comparable across runs or sources\n\nSo the result is not only a delivered task, but a workflow that is easier to extend and reuse after the first phase.\n\nBest,\nArtashes",
+  "short_proposal": "Hi,\n\nI would approach this by solving the immediate requirement in a way that remains stable and reusable after the first delivery.\n\nThat usually means shaping the structure early, validating the important assumptions, and avoiding a solution that only works for the first case.\n\nBest,\nArtashes",
+  "standard_proposal": "Hi,\n\nI read this as a need to replace manual effort with a repeatable workflow that behaves predictably.\n\nA practical way to handle this is to:\n- stabilize the extraction pattern on representative pages first, then extend it across the wider source set\n- shape the output schema early so collection stays aligned with downstream use\n\nRelated work on my side includes:\n- Built production-grade Apify Actors for structured extraction, validation, export workflows, and scalable cloud execution.\n- Created automated reporting and document generation workflows that produce structured PDF and export outputs from source data.\n- Built Python scraping systems using BeautifulSoup and Playwright for both static and dynamic websites, with reliable parsing and structured output delivery.\n\nHandled this way, the same work can also support:\n- a reusable extraction pattern so future sources can be added faster\n- normalized outputs so the collected data stays comparable across runs or sources\n\nSo the result is not only a delivered task, but a workflow that is easier to extend and reuse after the first phase.\n\nBest,\nArtashes",
+  "premium_proposal": "Hi,\n\nThe core issue here is that the real challenge is usually not the first delivery, but whether the solution continues to work cleanly as the use case expands.\n\nWhat matters is not only how to replace manual effort with a repeatable workflow that behaves predictably, but how to do it in a way that creates a stable foundation for whatever comes next.\n\nMy preference in projects like this is to structure the work so the first delivery also improves the next phase:\n- stabilize the extraction pattern on representative pages first, then extend it across the wider source set\n- shape the output schema early so collection stays aligned with downstream use\n\nThat perspective comes from work built around:\n- Built production-grade Apify Actors for structured extraction, validation, export workflows, and scalable cloud execution.\n- Created automated reporting and document generation workflows that produce structured PDF and export outputs from source data.\n- Built Python scraping systems using BeautifulSoup and Playwright for both static and dynamic websites, with reliable parsing and structured output delivery.\n\nApproached this way, the immediate solution can also open up:\n- a reusable extraction pattern so future sources can be added faster\n- normalized outputs so the collected data stays comparable across runs or sources\n- a path from raw extraction to enrichment, qualification, and CRM-ready outputs\n\nI would keep the delivery grounded: prove the approach on the current requirement first, then shape it so it can be extended cleanly without carrying unnecessary complexity into phase one.\n\nThat usually leads to a better result for the client: the initial problem gets solved, but the work also becomes more reusable, more informative, and more valuable over time.\n\nBest,\nArtashes"
+}
