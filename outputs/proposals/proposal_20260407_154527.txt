@@ -1,0 +1,126 @@
+=== SELECTED PROPOSAL (STANDARD) ===
+
+Hi,
+
+I read this as a need to clean, structure, and standardize incoming data so it becomes operationally usable.
+
+A practical way to handle this is to:
+- stabilize the extraction pattern on representative pages first, then extend it across the wider source set
+- shape the output schema early so collection stays aligned with downstream use
+- introduce cleaning, normalization, and validation close to ingestion rather than leaving quality issues until the end
+
+Related work on my side includes:
+- Built production-grade Apify Actors for structured extraction, validation, export workflows, and scalable cloud execution.
+- Built end-to-end data workflows covering collection, cleaning, normalization, validation, and export to business-ready formats like CSV, JSON, and XLSX.
+- Created automated reporting and document generation workflows that produce structured PDF and export outputs from source data.
+
+Handled this way, the same work can also support:
+- a reusable extraction pattern so future sources can be added faster
+- normalized outputs so the collected data stays comparable across runs or sources
+
+So the result is not only a delivered task, but a workflow that is easier to extend and reuse after the first phase.
+
+Best,
+Artashes
+
+=== SHORT PROPOSAL ===
+
+Hi,
+
+This looks less like a one-off script and more like a workflow that needs clean structure from ingestion through output.
+
+I would focus on keeping the data validated, normalized, and usable downstream so the result supports more than the immediate task.
+
+Best,
+Artashes
+
+=== STANDARD PROPOSAL ===
+
+Hi,
+
+I read this as a need to clean, structure, and standardize incoming data so it becomes operationally usable.
+
+A practical way to handle this is to:
+- stabilize the extraction pattern on representative pages first, then extend it across the wider source set
+- shape the output schema early so collection stays aligned with downstream use
+- introduce cleaning, normalization, and validation close to ingestion rather than leaving quality issues until the end
+
+Related work on my side includes:
+- Built production-grade Apify Actors for structured extraction, validation, export workflows, and scalable cloud execution.
+- Built end-to-end data workflows covering collection, cleaning, normalization, validation, and export to business-ready formats like CSV, JSON, and XLSX.
+- Created automated reporting and document generation workflows that produce structured PDF and export outputs from source data.
+
+Handled this way, the same work can also support:
+- a reusable extraction pattern so future sources can be added faster
+- normalized outputs so the collected data stays comparable across runs or sources
+
+So the result is not only a delivered task, but a workflow that is easier to extend and reuse after the first phase.
+
+Best,
+Artashes
+
+=== PREMIUM PROPOSAL ===
+
+Hi,
+
+The core issue here is that the real challenge is not collecting data, but shaping it into a form that remains reliable across downstream use cases.
+
+What matters is not only how to clean, structure, and standardize incoming data so it becomes operationally usable, but how to do it in a way that creates a stable foundation for whatever comes next.
+
+My preference in projects like this is to structure the work so the first delivery also improves the next phase:
+- stabilize the extraction pattern on representative pages first, then extend it across the wider source set
+- shape the output schema early so collection stays aligned with downstream use
+- introduce cleaning, normalization, and validation close to ingestion rather than leaving quality issues until the end
+
+That perspective comes from work built around:
+- Built production-grade Apify Actors for structured extraction, validation, export workflows, and scalable cloud execution.
+- Built end-to-end data workflows covering collection, cleaning, normalization, validation, and export to business-ready formats like CSV, JSON, and XLSX.
+- Created automated reporting and document generation workflows that produce structured PDF and export outputs from source data.
+
+Approached this way, the immediate solution can also open up:
+- a reusable extraction pattern so future sources can be added faster
+- normalized outputs so the collected data stays comparable across runs or sources
+- validation and transformation steps that make the data more useful for analytics, reporting, or operational use
+
+I would keep the delivery grounded: prove the approach on the current requirement first, then shape it so it can be extended cleanly without carrying unnecessary complexity into phase one.
+
+That usually leads to a better result for the client: the initial problem gets solved, but the work also becomes more reusable, more informative, and more valuable over time.
+
+Best,
+Artashes
+
+=== STRUCTURED PREMIUM PROPOSAL ===
+
+## Cover Letter
+
+Hi,
+
+What stands out in your project is not just the immediate requirement, but the need to clean, structure, and standardize incoming data so it becomes operationally usable in a way that remains reliable, scalable, and easy to evolve over time.
+
+In work like this, the real challenge is usually that the real challenge is not collecting data, but shaping it into a form that remains reliable across downstream use cases.
+
+My focus is to deliver something that solves the current requirement while also creating a clean foundation for future growth.
+
+I specialize in building production-ready systems using Python automation, Web scraping, BeautifulSoup, Playwright, Apify Actors, Data pipelines, Streamlit dashboards, Document/PDF automation, with strong emphasis on simplicity, reliability, and long-term usability.
+
+## Relevant Experience
+
+- Built production-grade Apify Actors for structured extraction, validation, export workflows, and scalable cloud execution.
+- Built end-to-end data workflows covering collection, cleaning, normalization, validation, and export to business-ready formats like CSV, JSON, and XLSX.
+- Created automated reporting and document generation workflows that produce structured PDF and export outputs from source data.
+
+Additionally:
+- Built Apify Actors for scalable structured extraction and reusable automation workflows
+- Developed backend and data pipeline systems designed for clean outputs and downstream use
+- Experience with decision systems, analytics workflows, and automation logic, including trading and prediction models
+
+## Approach
+
+1. stabilize the extraction pattern on representative pages first, then extend it across the wider source set
+2. shape the output schema early so collection stays aligned with downstream use
+3. introduce cleaning, normalization, and validation close to ingestion rather than leaving quality issues until the end
+
+I would keep the initial delivery grounded: prove the approach on the current requirement first, then shape it so it can be extended cleanly without introducing unnecessary complexity too early.
+
+Best,
+Artashes
